@@ -11,7 +11,7 @@
 function validParentheses(parens) {
   let result = 0;
 
-  for (var i = 0 ; i < parens.length && result>= 0; i++) {
+  for (let i = 0 ; i < parens.length && result>= 0; i++) {
     result+= (parens[i] == '(') ? 1 : -1;    
   }
 
